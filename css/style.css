@@ -1,0 +1,391 @@
+/* STYLE */
+
+@import url(bootstrap.css) screen;
+@import url(owl.carousel.css) screen;
+@import url(pe-icon-7-stroke.css) screen;
+
+/* FONTS */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,600italic,700,800,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,900,700,600,500,300,200,100);
+
+
+* {
+    margin: 0;
+    padding: 0px;
+
+}
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    background: #fff;
+    color: #656565;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.hidden {
+    display: none;
+}
+
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+a {
+    color: #0098d7;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+    vertical-align: bottom;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 0px;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    font-family: 'Roboto', serif;
+    line-height: 140%;
+    color: #01090c;
+}
+h1 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+
+/*
+    HEADER TOP SECTION
+ */
+.header-top-section{
+    display: block;
+    width: 100%;
+    background: rgb(124, 48, 191);
+    color: #fff;
+}
+
+.header-top-content{}
+.header-top-content ul{}
+.header-top-content ul li{}
+.header-top-content ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 0;
+}
+.header-top-content ul li a:hover, .header-top-content ul li a:active, .header-top-content ul li a:focus{
+    background: transparent;
+    color: #fff;
+}
+.header-top-content ul li:last-child a i{
+    position: relative;
+    top: 2px;
+}
+
+.header-top-menu{}
+.header-top-menu ul{}
+.header-top-menu ul li{}
+.header-top-menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.header-top-menu ul li a:hover, .header-top-menu ul li a:active, .header-top-menu ul li a:focus{
+    background: transparent
+}
+
+
+.header-section{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    transition: all 1s;
+    background: #fff;
+}
+header.header-section.fixed {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 99999;
+    border-bottom: 1px solid #1abc9c;
+    padding: 10px 0;
+    transition: all 1s;
+}
+.header-section .navbar{
+    height: auto;
+    min-height: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    background: transparent !important
+}
+.header-section .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: rgb(124, 48, 191);
+}
+.header-section .navbar .navbar-brand b{
+    color: rgb(255, 5, 5);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    text-align: right;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+ul.navbar-nav{
+    background: transparent;
+    margin: 0 auto;
+    margin-bottom: -5px;
+    display: inline-block;
+    float: none;
+}
+ul.navbar-nav li{}
+ul.navbar-nav li a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f0101 !important;
+    background: transparent !important;
+    text-transform: uppercase;
+}
+ul.navbar-nav li.active a, ul.navbar-nav li a:hover{
+    color: #1abc9c !important;
+}
+
+/*
+    FEATURED SECTION
+ */
+.featured-section{
+    display: block;
+    padding: 100px 0 80px;
+}
+.filter-menu{
+    display: block;
+    text-align: center;
+    margin: 30px 0 50px;
+}
+.filter-menu ul{
+    display: inline-block;
+    margin: 0 auto;
+}
+.filter-menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*
+    OFFER SECTION
+ */
+
+
+.offer-section h2{
+    font-size: 80px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.titie-section{
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+.titie-section h1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.titie-section:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 7px;
+    background:#ff0303;
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+/*
+    CONTACT SECTION
+ */
+.contact-section{
+    background: url(../images/map-bg.png) #2d3237 no-repeat;
+  /*  background-size: 100%;   */
+    background-position: center center;
+    padding: 100px 0 176px;
+    display: block;
+    position: relative;
+}
+.contact-section:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(45, 50, 55, .55);
+}
+.contact-section .titie-section{
+    display: block;
+    margin-bottom: 80px;
+}
+.contact-section .titie-section h1{
+    color: #fff;
+}
+
+.slaider-hid{
+width: 500px;
+height: 500px;
+overflow: hidden;
+position: absolute;
+top: 250px;
+left: 1000px;
+
+}
+ 
+.slaider-hid img{
+width: 500px;
+height: 500px;
+padding-bottom: 200px;
+}
+
+.contact-section .left-content{}
+.contact-section .left-content h1{
+    font-size: 72px;
+    margin: 0;
+    padding: 0;
+    color: rgb(124, 48, 191);
+    line-height: 1;
+    font-weight: 300;
+}
+.contact-section .left-content h1 span{
+    color: #ff0303;
+}
+
+.contact-section .left-content h3{
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.contact-section .left-content p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Roboto';
+}
+.contact-section .left-content p b{
+    color: #ff0303;
+}
+
+.contact-section .left-content p{}
+.contact-info{
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-info p{
+    margin: 0;
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
